@@ -7,6 +7,7 @@ const Footer = () => {
 
     return <footer>
         {footerText}
+        <i><p>*All images are from flash images*</p></i>
     </footer>;
 };
 

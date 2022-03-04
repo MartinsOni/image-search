@@ -9,7 +9,7 @@ const Content = (e) => {
   
   return (
     <div id='input'>
-      <i><h2>Images of {search}</h2></i>
+      <i><h2 style={{borderBottom: "2px solid black", padding: "10px",boxShadow: "inset 0 0 10px #000000", margin: "1% 35%"}}>Images of {search}</h2></i>
       <SearchForm />
 
       <div className='image'>
