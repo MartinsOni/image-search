@@ -47,7 +47,9 @@ const MyProvider = ({ children }) => {
       }
     };
     fetchData();
+    
   }, [URI]);
+
   if (data.loading) return <p>Loading.......</p>;
   if (data.error) return <p>{data.error}</p>;
 
